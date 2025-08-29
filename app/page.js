@@ -7,7 +7,6 @@ export default function Home() {
   const router = useRouter()
   const [text, setText] = useState("")
 
-  const
   const createTree = () => { 
     
     router.push(`/generate?handle=${text}`)
